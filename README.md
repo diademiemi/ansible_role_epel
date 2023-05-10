@@ -1,4 +1,4 @@
-Ansible Role Template
+Ansible Role EPEL
 =========
 
 [![Molecule Test](https://github.com/diademiemi/ansible_role_epel/actions/workflows/molecule.yml/badge.svg)](https://github.com/diademiemi/ansible_role_epel/actions/workflows/molecule.yml)
@@ -14,7 +14,6 @@ These platforms are supported:
 - EL 7 (Tested on CentOS Core Linux 8)  
 - EL 8 (Tested on Rocky Linux 8)  
 - EL 9 (Tested on Rocky Linux 9)  
-- Fedora 38  
 
 <!-- 
 - List hardware requirements here  
