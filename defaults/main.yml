@@ -1,3 +1,4 @@
 ---
+epel_rpm_package_urls: "{{ _epel_rpm_package_urls }}"
 
 ...

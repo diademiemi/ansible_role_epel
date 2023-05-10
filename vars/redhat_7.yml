@@ -1,0 +1,5 @@
+---
+_epel_rpm_package_urls:
+  - https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+...

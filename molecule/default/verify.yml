@@ -5,6 +5,8 @@
   hosts: all
   gather_facts: false
   tasks:
-    - name: Example assertion
-      ansible.builtin.assert:
-        that: true
+    - name: Test if EPEL packages are available
+      become: true
+      ansible.builtin.yum:
+        name: chromium
+        state: present

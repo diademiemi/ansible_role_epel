@@ -1,7 +1,9 @@
 ---
-- name: Failover if no platform specific tasks are found
-  ansible.builtin.fail:
-    msg: "Your platform is not supported"
-  when: true
+- name: Install EPEL packages
+  become: true
+  ansible.builtin.yum:
+    name: "{{ epel_rpm_package_urls }}"
+    state: present
+    disable_gpg_check: true
 
 ...
