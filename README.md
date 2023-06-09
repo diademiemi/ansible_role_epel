@@ -39,6 +39,9 @@ Example Playbook
 ----------------
 
 ```yaml
+- name: Use diademiemi.epel role
+  hosts: "{{ target | default('github_cli') }}"
+  roles:
     - role: "diademiemi.epel"
       tags: ['diademiemi', 'epel', 'setup']    ```
 
