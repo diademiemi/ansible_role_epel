@@ -6,7 +6,7 @@ Ansible Role EPEL
 This is an Ansible role to install EPEL on RHEL-based systems.  
 Special variables for CentOS Stream to install EPEL next are provided.  
 
-Include more information about epel in this section.
+This is mostly used in my other roles as a dependency.  
 
 Requirements
 ------------
