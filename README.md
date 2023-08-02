@@ -11,7 +11,7 @@ This is mostly used in my other roles as a dependency.
 Requirements
 ------------
 These platforms are supported:
-- EL 7 (Tested on CentOS Core Linux 8)  
+- EL 7 (Tested on CentOS Core Linux 7)  
 - EL 8 (Tested on Rocky Linux 8)  
 - EL 9 (Tested on Rocky Linux 9)  
 
