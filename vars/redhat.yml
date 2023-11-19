@@ -1,0 +1,6 @@
+---
+_epel_rpm_package_urls:
+  - https://dl.fedoraproject.org/pub/epel/epel-release-latest-{{ ansible_distribution_major_version }}.noarch.rpm
+  - https://dl.fedoraproject.org/pub/epel/epel-next-release-latest-{{ ansible_distribution_major_version }}.noarch.rpm
+
+...
